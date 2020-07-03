@@ -6,12 +6,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class Tabflattechnologymod extends Object {
+public class Tabflattechnologymod extends CreativeTabs {
 
     public static final Tabflattechnologymod tabflattechnologymod = new Tabflattechnologymod();
 
-    public void flattechnologymod() { super("flattechnology");}
+    public Tabflattechnologymod() {super("flatTechnologymod");}
 
     @SideOnly(Side.CLIENT)
-    public ItemStack getTabIconItem() {return new ItemStack(ItemLoader.test);}
+    public ItemStack getTabIconItem() {return new ItemStack(ItemLoader.flattechnology);}
 }

@@ -12,10 +12,10 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLoader {
-    //Item 实例化
+    //Item
     // static Item (Item name) = new Item class("name");
     public static Item test = new Itemtest("test");
-    public static Item flatTechnology = new ItemflatTechnology("flatTechnology");
+    public static Item flattechnology = new Itemflattechnology("flattechnology");
     //block 物品方块注册
     public static void Blockitem(){
         //registeritemblock(BlockLoader.Block name);
@@ -31,20 +31,20 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(test);
     }
 
-    //Block 物品材质加载
+    //Block
     @SideOnly(Side.CLIENT)
     public static void BlockitemregisterRenders() {
-        //regsiterRender(Item.getItemFromBlock(BlockLoader.材质名);
+        //regsiterRender(Item.getItemFromBlock(BlockLoader.);
         regsiterRender(Item.getItemFromBlock(BlockLoader.testblock));
 
     }
 
-    //Item 物品材质加载
+    //Item
     @SideOnly(Side.CLIENT)
     public static void ItemitemregisterRenders() {
-        //regsiterRender(物品材质名);
+        //regsiterRender();
         regsiterRender(test);
-        regsiterRender(flatTechnology);
+        regsiterRender(flattechnology);
 
     }
 
