@@ -10,7 +10,7 @@ public class Tabflattechnologymod extends CreativeTabs {
 
     public static final Tabflattechnologymod tabflattechnologymod = new Tabflattechnologymod();
 
-    public Tabflattechnologymod() {super("flatTechnologymod");}
+    public  Tabflattechnologymod() {super("flattechnologymod");}
 
     @SideOnly(Side.CLIENT)
     public ItemStack getTabIconItem() {return new ItemStack(ItemLoader.flattechnology);}

@@ -1,0 +1,7 @@
+//Creative Inventory
+itemGroup.flattechnologymod = 超平坦科技模组
+
+//Items
+item.flattechnology.name = 超平坦科技之星
+
+//Block

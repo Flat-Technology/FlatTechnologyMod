@@ -5,13 +5,12 @@ import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class BlockLoader {
-    //Block
+    //Block 实例
     //public static Block (block name) = new Block class("name",Material.ROCK);
-    public static Block testblock = new Blocktestblock("testblock",Material.ROCK);
 
-    //Block register
-    public static void Blockblock() {
+    //Block 注册
+    public static void Blockblock (){
         //ForgeRegistries.BLOCKS.register((block name));
-        ForgeRegistries.BLOCKS.register(testblock);
+
     }
 }

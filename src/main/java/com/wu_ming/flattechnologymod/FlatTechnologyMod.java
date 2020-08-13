@@ -23,8 +23,8 @@ public class FlatTechnologyMod {
     public static FlatTechnologyMod instance;
 
     @SidedProxy(
-            clientSide = "com.wu_ming.flatTechnologymod.proxy.ClientProxy",
-            serverSide = "com.wu_ming.flatTechnologymod.proxy.CommonProxy")
+            clientSide = "com.wu_ming.flattechnologymod.proxy.ClientProxy",
+            serverSide = "com.wu_ming.flattechnologymod.proxy.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler
